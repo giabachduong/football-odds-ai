@@ -44,3 +44,17 @@ After approved implementation, summarize:
 - What changed and which files were affected
 - Tests or checks run and their results
 - Any remaining issues or limitations
+
+## Future Architecture
+
+- Keep prediction models separate from betting market calculations.
+- Design the system to support multiple betting markets in the future.
+- Preserve home goals and away goals data for future goal
+  prediction models.
+- Develop the project in these phases:
+  1. 1X2 probability prediction as the initial scope.
+  2. Goal prediction models.
+  3. Asian Handicap probabilities.
+  4. Over/Under and Both Teams To Score (BTTS) probabilities.
+- Complete and properly evaluate the 1X2 baseline before
+  implementing Handicap or any other additional markets.
